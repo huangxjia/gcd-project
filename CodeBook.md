@@ -35,19 +35,20 @@ The final tidyData included 35 columns (subject labels, activity names, and 33 c
 TidyData Variables
 
 volunteersID                              
-	volunteers' ID, range from 1 to 30
+	   volunteers' ID, range from 1 to 30
 
 Activities                                            
-	Activities types, including ALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
+	   Activities types, including ALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
 
 MeanOfTimeOFBodyAccelerationSignalX                   
-	Mean of the time of body acceleration on the X direction
+	   Mean of the time of body acceleration on the X direction
 
 MeanOfTimeOFBodyAccelerationSignalY                   
-	Mean of the time of body acceleration on the Y direction
+	   Mean of the time of body acceleration on the Y direction
 
 MeanOfTimeOFBodyAccelerationSignalZ           
-	Mean of the time of body acceleration on the Z direction        
+       Mean of the time of body acceleration on the Z direction        
+
 MeanOfTimeOFGravityAccelerationSignalX         
        Mean of the time of gravity acceleration on the X direction
 
@@ -59,10 +60,13 @@ MeanOfTimeOFGravityAccelerationSignalZ
 
 MeanOfTimeOFBodyAccelerationJerkSignalX         
        Mean of the time of body acceleration jerk on the X direction      
+
 MeanOfTimeOFBodyAccelerationJerkSignalY           
        Mean of the time of body acceleration jerk on the Y direction      
+
 MeanOfTimeOFBodyAccelerationJerkSignalZ             
        Mean of the time of body acceleration jerk on the Z direction      
+
 MeanOfTimeOFBodyGyroscopeSignalX               
        Mean of the time of body gyroscope on the X direction      
 
@@ -71,14 +75,19 @@ MeanOfTimeOFBodyGyroscopeSignalY
 
 MeanOfTimeOFBodyGyroscopeSignalZ           
        Mean of the time of body gyroscope on the Z direction                 
+
 MeanOfTimeOFBodyGyroscopeJerkSignalX       
        Mean of the time of body gyroscope Jerk on the X direction                 
+
 MeanOfTimeOFBodyGyroscopeJerkSignalY                  
        Mean of the time of body gyroscope Jerk on the Y direction                 
+
 MeanOfTimeOFBodyGyroscopeJerkSignalZ           
        Mean of the time of body gyroscope Jerk on the Z direction                        
+
 MeanOfMagnitudeOfTimeOFBodyAccelerationSignal   
        Mean of the magnitude of the time of body acceleration signal                 
+
 MeanOfMagnitudeOfTimeOFGravityAccelerationSignal      
        Mean of the magnitude of the time of gravity acceleration signal                 
 
@@ -87,6 +96,7 @@ MeanOfMagnitudeOfTimeOFBodyAccelerationJerkSignal
 
 MeanOfMagnitudeOfTimeOFBodyGyroscopeSignal            
        Mean of the magnitude of the time of body gyroscope signal                 
+
 MeanOfMagnitudeOfTimeOFBodyGyroscopeJerkSignal     
        Mean of the magnitude of the time of body gyroscope jerk signal                    
 
