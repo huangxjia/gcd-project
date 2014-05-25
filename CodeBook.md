@@ -35,16 +35,16 @@ The final tidyData included 35 columns (subject labels, activity names, and 33 c
 TidyData Variables
 
 volunteersID                              
-	   volunteers' ID, range from 1 to 30
+	volunteers' ID, range from 1 to 30
 
 Activities                                            
-	   Activities types, including ALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
+	Activities types, including ALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
 
 MeanOfTimeOFBodyAccelerationSignalX                   
-	   Mean of the time of body acceleration on the X direction
+	Mean of the time of body acceleration on the X direction
 
 MeanOfTimeOFBodyAccelerationSignalY                   
-	   Mean of the time of body acceleration on the Y direction
+	Mean of the time of body acceleration on the Y direction
 
 MeanOfTimeOFBodyAccelerationSignalZ           
        Mean of the time of body acceleration on the Z direction        
@@ -108,6 +108,7 @@ MeanOfFrequencyOFBodyAccelerationSignalY
 
 MeanOfFrequencyOFBodyAccelerationSignalZ            
 	Mean of the frequency of body acceleration on the Z direction  
+
 MeanOfFrequencyOFBodyAccelerationJerkSignalX        
 	Mean of the frequency of body acceleration jerk on the X direction  
 
@@ -122,8 +123,10 @@ MeanOfFrequencyOFBodyGyroscopeSignalX
 
 MeanOfFrequencyOFBodyGyroscopeSignalY    
 	Mean of the frequency of body gyroscope on the Y direction               
+
 MeanOfFrequencyOFBodyGyroscopeSignalZ                 
 	Mean of the frequency of body gyroscope on the Z direction               
+
 MeanOfMagnitudeOfFrequencyOFBodyAccelerationSignal
 	Mean of the magnitude of the frequency of body acceleration signal 
 
