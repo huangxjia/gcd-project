@@ -47,7 +47,8 @@ MeanOfTimeOFBodyAccelerationSignalY
 	Mean of the time of body acceleration on the Y direction
 
 MeanOfTimeOFBodyAccelerationSignalZ           
-	Mean of the time of body acceleration on the Z direction        
+       Mean of the time of body acceleration on the Z direction        
+
 MeanOfTimeOFGravityAccelerationSignalX         
        Mean of the time of gravity acceleration on the X direction
 
@@ -59,10 +60,13 @@ MeanOfTimeOFGravityAccelerationSignalZ
 
 MeanOfTimeOFBodyAccelerationJerkSignalX         
        Mean of the time of body acceleration jerk on the X direction      
+
 MeanOfTimeOFBodyAccelerationJerkSignalY           
        Mean of the time of body acceleration jerk on the Y direction      
+
 MeanOfTimeOFBodyAccelerationJerkSignalZ             
        Mean of the time of body acceleration jerk on the Z direction      
+
 MeanOfTimeOFBodyGyroscopeSignalX               
        Mean of the time of body gyroscope on the X direction      
 
@@ -71,14 +75,19 @@ MeanOfTimeOFBodyGyroscopeSignalY
 
 MeanOfTimeOFBodyGyroscopeSignalZ           
        Mean of the time of body gyroscope on the Z direction                 
+
 MeanOfTimeOFBodyGyroscopeJerkSignalX       
        Mean of the time of body gyroscope Jerk on the X direction                 
+
 MeanOfTimeOFBodyGyroscopeJerkSignalY                  
        Mean of the time of body gyroscope Jerk on the Y direction                 
+
 MeanOfTimeOFBodyGyroscopeJerkSignalZ           
        Mean of the time of body gyroscope Jerk on the Z direction                        
+
 MeanOfMagnitudeOfTimeOFBodyAccelerationSignal   
        Mean of the magnitude of the time of body acceleration signal                 
+
 MeanOfMagnitudeOfTimeOFGravityAccelerationSignal      
        Mean of the magnitude of the time of gravity acceleration signal                 
 
@@ -87,6 +96,7 @@ MeanOfMagnitudeOfTimeOFBodyAccelerationJerkSignal
 
 MeanOfMagnitudeOfTimeOFBodyGyroscopeSignal            
        Mean of the magnitude of the time of body gyroscope signal                 
+
 MeanOfMagnitudeOfTimeOFBodyGyroscopeJerkSignal     
        Mean of the magnitude of the time of body gyroscope jerk signal                    
 
@@ -98,6 +108,7 @@ MeanOfFrequencyOFBodyAccelerationSignalY
 
 MeanOfFrequencyOFBodyAccelerationSignalZ            
 	Mean of the frequency of body acceleration on the Z direction  
+
 MeanOfFrequencyOFBodyAccelerationJerkSignalX        
 	Mean of the frequency of body acceleration jerk on the X direction  
 
@@ -112,8 +123,10 @@ MeanOfFrequencyOFBodyGyroscopeSignalX
 
 MeanOfFrequencyOFBodyGyroscopeSignalY    
 	Mean of the frequency of body gyroscope on the Y direction               
+
 MeanOfFrequencyOFBodyGyroscopeSignalZ                 
 	Mean of the frequency of body gyroscope on the Z direction               
+
 MeanOfMagnitudeOfFrequencyOFBodyAccelerationSignal
 	Mean of the magnitude of the frequency of body acceleration signal 
 
