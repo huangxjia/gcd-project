@@ -28,14 +28,14 @@ So, analysis on the data should be rooted in the 33 basic elements and find the 
 
 Transformations
 
-The requirement for tidyData is to collect ¡®the average of each variable for each activity and each subject¡¯. As there are 30 subjects and 6 activities, 180 subgroups should be included in the new data set. Each subgroup is represented as a row in the new data set, with the mean of the targeted features. 
+The requirement for tidyData is to collect 'the average of each variable for each activity and each subject'. As there are 30 subjects and 6 activities, 180 subgroups should be included in the new data set. Each subgroup is represented as a row in the new data set, with the mean of the targeted features. 
 As the sensor signals were sampled in fixed-width sliding windows of 2.56 sec and 50% overlap, the average of each variable can be obtained by calculating the average of the mean of these variables. In this case, melt is used to subgroup the dataset into 180 groups with activity and subject. Then, dcast is used to calculate the mean of each subgroup. 
-The final tidyData included 35 columns (subject labels, activity names, and 33 columns that represent the mean of variables). Columns are selected by indentifying features that have ¡®mean¡¯ string (meanFreq() is exempted from the tidyData as mean of frequency has been include in features like ¡®fBodyAccJerk-mean()-Z¡¯, ¡®fBodyAccJerk-mean()-X¡¯). So, mean of 33 basic variables are calculated and this comes to the 33 columns of tidyData. 
+The final tidyData included 35 columns (subject labels, activity names, and 33 columns that represent the mean of variables). Columns are selected by indentifying features that have 'mean' string (meanFreq() is exempted from the tidyData as mean of frequency has been include in features like 'fBodyAccJerk-mean()-Z', 'fBodyAccJerk-mean()-X'). So, mean of 33 basic variables are calculated and this comes to the 33 columns of tidyData. 
 
 TidyData Variables
 
 volunteersID                              
-	volunteers¡¯ ID, range from 1 to 30
+	volunteers' ID, range from 1 to 30
 
 Activities                                            
 	Activities types, including ALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
@@ -48,7 +48,6 @@ MeanOfTimeOFBodyAccelerationSignalY
 
 MeanOfTimeOFBodyAccelerationSignalZ           
 	Mean of the time of body acceleration on the Z direction        
-
 MeanOfTimeOFGravityAccelerationSignalX         
        Mean of the time of gravity acceleration on the X direction
 
@@ -60,13 +59,10 @@ MeanOfTimeOFGravityAccelerationSignalZ
 
 MeanOfTimeOFBodyAccelerationJerkSignalX         
        Mean of the time of body acceleration jerk on the X direction      
-
 MeanOfTimeOFBodyAccelerationJerkSignalY           
        Mean of the time of body acceleration jerk on the Y direction      
-
 MeanOfTimeOFBodyAccelerationJerkSignalZ             
        Mean of the time of body acceleration jerk on the Z direction      
-
 MeanOfTimeOFBodyGyroscopeSignalX               
        Mean of the time of body gyroscope on the X direction      
 
@@ -75,19 +71,14 @@ MeanOfTimeOFBodyGyroscopeSignalY
 
 MeanOfTimeOFBodyGyroscopeSignalZ           
        Mean of the time of body gyroscope on the Z direction                 
-
 MeanOfTimeOFBodyGyroscopeJerkSignalX       
        Mean of the time of body gyroscope Jerk on the X direction                 
-
 MeanOfTimeOFBodyGyroscopeJerkSignalY                  
        Mean of the time of body gyroscope Jerk on the Y direction                 
-
 MeanOfTimeOFBodyGyroscopeJerkSignalZ           
        Mean of the time of body gyroscope Jerk on the Z direction                        
-
 MeanOfMagnitudeOfTimeOFBodyAccelerationSignal   
        Mean of the magnitude of the time of body acceleration signal                 
-
 MeanOfMagnitudeOfTimeOFGravityAccelerationSignal      
        Mean of the magnitude of the time of gravity acceleration signal                 
 
@@ -96,7 +87,6 @@ MeanOfMagnitudeOfTimeOFBodyAccelerationJerkSignal
 
 MeanOfMagnitudeOfTimeOFBodyGyroscopeSignal            
        Mean of the magnitude of the time of body gyroscope signal                 
-
 MeanOfMagnitudeOfTimeOFBodyGyroscopeJerkSignal     
        Mean of the magnitude of the time of body gyroscope jerk signal                    
 
@@ -108,7 +98,6 @@ MeanOfFrequencyOFBodyAccelerationSignalY
 
 MeanOfFrequencyOFBodyAccelerationSignalZ            
 	Mean of the frequency of body acceleration on the Z direction  
-
 MeanOfFrequencyOFBodyAccelerationJerkSignalX        
 	Mean of the frequency of body acceleration jerk on the X direction  
 
@@ -123,16 +112,14 @@ MeanOfFrequencyOFBodyGyroscopeSignalX
 
 MeanOfFrequencyOFBodyGyroscopeSignalY    
 	Mean of the frequency of body gyroscope on the Y direction               
-
 MeanOfFrequencyOFBodyGyroscopeSignalZ                 
 	Mean of the frequency of body gyroscope on the Z direction               
-
 MeanOfMagnitudeOfFrequencyOFBodyAccelerationSignal
 	Mean of the magnitude of the frequency of body acceleration signal 
 
 MeanOfMagnitudeOfFrequencyOFBodyAccelerationJerkSignal
 	Mean of the magnitude of the frequency of body acceleration jerk signal
-\
+
 MeanOfMagnitudeOfFrequencyOFBodyGyroscopeSignal       
 	Mean of the magnitude of the frequency of body gyroscope signal
 
