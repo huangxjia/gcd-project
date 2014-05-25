@@ -1,4 +1,5 @@
 ##step 1. Merges the training and the test sets to create one data set.
+##hello
 
 trainFold <- dir('UCI HAR Dataset/train')[-1]
 testFold <- dir('UCI HAR Dataset/test')[-1]
